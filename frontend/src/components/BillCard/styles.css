@@ -1,0 +1,134 @@
+.card-content {
+  min-height: 450px;
+  min-width: 300px;
+  padding: 25px 25px;
+  margin-right: 25px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-content .top {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-content .top .left span:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-content .top .left span:nth-child(2) {
+  margin-left: 10px;
+  color: rgb(133, 133, 133);
+  font-size: 15px;  
+}
+
+.card-content .top .status {
+  height: 25px;
+  padding: 0 7px;   
+  
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.card-content .values {
+  width: 100%;
+  height: 30%;
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: center;
+}
+
+.card-content .values .consumed span:nth-child(1){
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.card-content .values .consumed span:nth-child(2){
+  color: rgb(133, 133, 133);
+}
+
+.card-content .values .cost span:nth-child(1){
+  color: rgb(133, 133, 133);
+}
+
+.card-content .values .cost span:nth-child(2){
+  margin-left: 7px; 
+
+  font-size: 25px;
+  font-weight: 500; 
+  color: red; 
+}
+
+.card-content .due-date {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
+}
+
+.card-content .due-date span:nth-child(1) {
+  color: rgb(133, 133, 133);
+}
+
+.card-content .due-date .date span:nth-child(1) {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.card-content .due-date .date span:nth-child(2) {  
+  margin-left: 5px;
+  font-weight: 400;  
+}
+
+.card-content .bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-content .bottom .pay-link {
+  text-decoration: none;
+  color: rgb(3, 184, 3);
+  font-weight: 400;
+  font-size: 15px;
+
+  transition: opacity 0.2s;
+}
+
+.card-content .bottom .pay-link:hover {
+  filter: opacity(0.6);
+}
+

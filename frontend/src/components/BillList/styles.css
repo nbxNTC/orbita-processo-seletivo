@@ -1,0 +1,13 @@
+.list {  
+  padding: 20px;  
+  overflow-x: scroll;  
+  overflow-y: hidden;   
+}
+
+.list::-webkit-scrollbar {    
+  display: none;
+}
+
+.list {
+  display: flex;  
+}
